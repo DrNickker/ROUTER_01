@@ -8,7 +8,7 @@ import smile from '../imgs/smile.svg'
 import gif from '../imgs/gif.svg'
 import photo from '../imgs/photo.svg'
 import sticker from '../imgs/sticker.svg'
-import nanoid from 'nanoid'
+import { nanoid } from 'nanoid'
 
 export default function HeadPage() {
     const [data] = useJsonFetch(process.env.REACT_APP_DATA_URL, [])
